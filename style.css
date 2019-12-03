@@ -1,0 +1,99 @@
+/* Write your CSS here */
+head{
+
+}
+body{
+  background: #fffdf9;
+  font-size: 20px;
+  font-family: Helvetica;
+}
+h1{
+  font-family: Lobster;
+  color: black;
+  font-weight: lighter;
+  text-align: center;
+  font-size: 80px;
+}
+h2 {
+  font-family: Pacifico;
+  color: black;
+  font-weight: lighter;
+  font-size: 30px;
+}
+a {
+	text-decoration: none;
+  	color: black;
+}
+a:hover {
+ 
+  color: red;
+}
+
+
+#banner{
+	background-image: url("images/banner.jpg");
+	text-align: center;
+	color: : #ffffff;
+	padding: 50px;
+	margin-bottom: 20px;
+
+}
+#banner img{
+	margin-top: 10px;	
+	border-radius: 50%;
+}
+
+#banner h2{
+	text-align: center;
+	font-family: Pacifico;
+	color: #F67280;
+}
+.card-white{
+  background-color: white;
+  border-radius: 4px;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(50,50,93,.11);
+  padding: 10px;
+  margin: 16px 0px;
+}
+.card-white img {
+  margin-bottom: 10px;
+}
+
+.btn-blue {
+  color: white;
+  background-color: #9dd8c8;
+  border-radius: 4px;
+  box-shadow: 0 4px 6px rgba(50,50,93,.11);
+  padding: 15px 20px;
+}
+.btn-blue:hover {
+  background-color: #F67280;
+  color: white;
+}
+.cards{
+  margin: 15px auto;
+  width: 1000px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 16px;
+}
+#footer{
+	font-family: Pacifico;
+	font-size: 30px;
+	text-align: center;
+	color: : #ffffff;
+	padding: 20px
+}
+
+@media(max-width: 992px){
+  .cards{
+  width: 750px;
+  }
+}
+@media(max-width: 768px){
+  .cards{
+  width: 90%;
+  grid-template-columns: 1fr;
+  }
+}
